@@ -1,0 +1,228 @@
+@media (max-width:850px) {
+    #nav-contacts {
+        background-color: rgba(143, 253, 253, 0.61);
+        transition: 0.5s;
+        color: #000;
+    }
+}
+
+#nav-contacts {
+    background-color: rgba(143, 253, 253, 0.61);
+    font-size: 24px;
+    transition: 0.5s;
+}
+/*--------------------- contact start----------------  */
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.main-contact {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    width: 100%;
+} 
+
+.left {
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    cursor: context-menu;
+}
+
+.right {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+}
+
+.ptalk {
+    width: 500px;
+    height: auto;
+    padding-bottom: 30px;
+    border-left: rgb(103, 175, 243) 1px solid;
+    padding-left: 10px;
+    background-color: rgba(238, 238, 238, 0.822);
+}
+
+#contactname {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Gill Sans', ;
+    font-size: 16px;
+    padding-top:100px;
+    color: rgb(0, 0, 0);
+}
+
+.Name {
+    width: 390px;
+    height: auto;
+    font-size: 14px;
+    border: none;
+    border-bottom:2px solid rgba(100, 100, 100, 0.5);
+    border-left:1px solid rgba(100, 100, 100, 0.5);
+    padding: 10px;
+}
+
+.Email {
+    width: 390px;
+    height: auto;
+    font-size: 14px;
+    border: none;
+    border-bottom:2px solid rgba(100, 100, 100, 0.5);
+    border-left:1px solid rgba(100, 100, 100, 0.5);
+    padding: 10px;
+}
+
+.Subject {
+    width: 390px;
+    height: auto;
+    font-size: 14px;
+    border: none;
+    border-bottom:2px solid rgba(100, 100, 100, 0.5);
+    border-left:1px solid rgba(100, 100, 100, 0.5);
+    padding: 10px;
+}
+
+.Message {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    border: none;
+    border-bottom:2px solid rgba(100, 100, 100, 0.5);
+    border-left:1px solid rgba(100, 100, 100, 0.5);
+    padding: 10px;
+    width: 390px;
+}
+
+.name {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.email {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.subject {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.message {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+}
+
+.send {
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.788);
+    cursor: pointer;
+}
+
+.rest {
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.788);
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: rgba(217, 255, 5, 0.788);
+    color: #000;
+    font-weight: 700;
+}
+
+.rest:hover {
+    background-color: rgba(217, 255, 5, 0.788);
+    color: #000;
+    font-weight: 700;
+}
+/*--------------------- contact end------------------  */
+#his{
+    width: 100%;
+    background-color: rgb(119, 178, 255);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding: 15px 10px;
+    border-radius: 3px;
+}
+.our-location{
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* big photo start -------------------------- */
+    .top-photo{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        z-index: 2;
+        box-shadow:  0px 0px 1px #000;
+        background-color: rgb(69, 194, 243);
+    }
+    .top-photo h1,.top-photo h3 {
+        z-index: 3;
+        font-weight: 500;
+    }
+        .trin{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        transform: skew(25deg);
+        box-shadow: 0px 0px 10px 1px #000;
+    }
+/* big photo End --------------------------- */

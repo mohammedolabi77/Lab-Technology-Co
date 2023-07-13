@@ -1,0 +1,433 @@
+@media (max-width:850px) {
+    #nav-events {
+        background-color: rgba(143, 253, 253, 0.61);
+        transition: 0.5s;
+        color: #000;
+        border-left: 2px rgb(59, 47, 231) solid;
+        border-right: 2px rgb(59, 47, 231) solid;
+    }
+}
+
+#nav-events {
+    background-color: rgba(143, 253, 253, 0.61);
+    font-size: 24px; 
+    transition: 0.5s;
+    border-left: 2px rgb(59, 47, 231) solid;
+    margin-left: 2px;
+}
+.page{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* big photo start -------------------------- */
+    .top-photo{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        z-index: 2;
+        box-shadow:  0px 0px 1px #000;
+        background-color: rgb(69, 194, 243);
+        background-image: linear-gradient(to right rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.24));
+    }
+    .top-photo h1,.top-photo h3 {
+        z-index: 3;
+    }
+        .trin{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        transform: skew(25deg);
+        box-shadow: 0px 0px 10px 1px #000;
+        
+    }
+
+
+.big-photo.life-gall{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.life-gall img {
+    margin:2px;
+    border-radius: 5px;
+}
+.ev-img.a1{
+    width: 400px;
+    height: 280px;
+}
+.ev-img.a2{
+    width: 400px;
+    height: 300px;
+}
+.ev-img.a3{
+    width: 300px;
+    height: auto;
+}
+.ev-img.a4{
+    width: 400px;
+    height: auto;
+}
+.ev-img.a5{
+    width: 400px;
+    height: auto;
+}
+
+.ev2-img.a1{
+    width: 300px;
+    height: 280px;
+}
+.ev2-img.a2{
+    width: 300px;
+    height: 280px;
+}
+.ev2-img.a3{
+    width: 320px;
+    height: 280px;
+}
+.ev2-img.a4{
+    width: 350px;
+    height:280px;
+}
+.ev2-img.a5{
+    width: 400px;
+    height: auto;
+}
+
+
+.fixi{
+    display: flex;
+    flex-direction: column;
+}
+
+/* big photo End --------------------------- */
+
+.top-all-evcont {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    word-spacing: 5px;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+/* activ  */
+
+
+
+.big-photo {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-position: 50%, 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(230, 225, 225, 0.575);
+}
+
+.event-cont {  
+    /* contain evrything exept big img  */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 650px;
+    font-size: 12px;
+    margin-top: -100px;
+}
+
+.text-cont {
+    /* for all text  */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 85px;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 32;
+    background-color: rgba(238, 238, 238, 0.315);
+}
+
+.baisic-row {
+    /* for all data eee  */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #eee;
+}
+/* color ev 1  */
+#ev1{
+    border-left: 50px rgb(0, 255, 128) solid;
+}
+#sev1 {
+    border-right: 2px solid rgb(0, 255, 128);
+}
+/* color ev 2 */
+
+#ev2{
+    border-left: 50px rgb(0, 217, 255) solid;
+}
+#sev2 {
+    border-right: 2px solid rgb(0, 217, 255);
+}
+
+.baisic-row div {
+    border-left: 5px solid #fff;
+    padding-left: 10px;
+}
+
+.data {
+    margin-left: -27px;
+}
+
+.celinderco {
+    width: 30px;
+    display: flex;
+    position: relative;
+    margin: 15px -30px 0px 15px;
+
+}
+
+.timeco {
+    width: 30px;
+    display: flex;
+    position: relative;
+    margin: 15px -30px 0px 15px;
+
+}
+
+.locationco {
+    width: 30px;
+    display: flex;
+    position: relative;
+    margin: 15px -30px 0px 15px;
+
+}
+
+.companyco {
+    width: 30px;
+    display: flex;
+    position: relative;
+    margin: 14px -20px 0px 14px;
+
+}
+
+.description-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.description-text p{
+    width: 80%;
+    margin-right: -2000px;
+}
+.description-text a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(143, 200, 253);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin: 10px;
+}
+.description-text a:hover{
+    padding: 7.5px 15px;
+    transition: all 0.2s ease-in-out;
+}
+.side-nav-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 90px 0px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.text-dev-nav {
+    background-color: #eee;
+    width: 300px;
+    height: auto;
+    z-index: 1;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.text-dev-nav .h3#h3 {
+    font-size: 14px;
+    font-weight: 750;
+    margin-left: 10px;
+}
+
+.seemo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 300px;
+    margin-top: -20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 0;
+    padding-top: 20px;
+    background-color: rgb(143, 200, 253);
+}
+.seemo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.seemo p {
+    display: none;
+    position: absolute;
+    margin: 40px 0px 0px 0px;
+}
+
+.seemo:hover p {
+    display: block;
+}
+
+.seemo:hover {
+    margin: -10px 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.seemo:hover h2 {
+    padding-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text-dev-nav h2 {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.dev-phonto img {
+    width: 300px;
+    height: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.small-ev-contt {
+    display: none;
+}
+
+/* dis act start */
+.small-ev-cont.disact {
+    display: none;
+}
+
+.small-ev-contt.disact {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    height: auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.small-ev-contt.disact:hover {
+    box-shadow: 0px 0px 5px rgb(199, 198, 198);
+}
+
+.big-photo.dis .ev-img.small {
+    width: 380px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.big-photo.dis {
+    margin: 0px;
+    background-position: 0%, 0%;
+    border-radius: 0px;
+    
+}
+
+.event-cont.dis {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+}
+
+.event-cont.dis .text-cont .baisic-row div {
+    width: 30%;
+    height: auto;
+    padding-left: 10px;
+    border-left: 2px solid #fff;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.event-cont.dis .text-cont {
+    width: 100%;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+
+}
+
+.event-cont.dis .text-cont .description-text {
+    width: 100%;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 80px;
+
+}
+
+.event-cont.dis .baisic-row {
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: -100px;
+    box-shadow: 0px 0px 1px #000;
+}
+
+.event-cont.dis .baisic-row div {
+    margin: 0px;
+    display: flex;
+    position: relative;
+    font-size: 12px !important;
+}
+

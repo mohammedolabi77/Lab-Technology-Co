@@ -1,0 +1,379 @@
+@media (max-width:850px) {
+    #nav-technical {
+        background-color: rgba(143, 253, 253, 0.61);
+        transition: 0.5s;
+        color: #000;
+        border-left: 2px rgb(59, 47, 231) solid;
+        border-right: 2px rgb(59, 47, 231) solid;
+    }
+}
+
+#nav-technical {
+    background-color: rgba(143, 253, 253, 0.61);
+    font-size: 24px;
+    transition: 0.5s;
+    border-left: 2px rgb(59, 47, 231) solid;
+    margin-left: 2px;
+} 
+.page{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    width: 100%;
+}
+
+/* big photo start -------------------------- */
+    .top-photo{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        overflow: hidden;
+        z-index: 2;
+        box-shadow:  0px 0px 1px #000;
+        background-color: rgb(69, 194, 243);
+    }
+    .top-photo h1,.top-photo h3 {
+        z-index: 3;
+    }
+        .trin{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        transform: skew(25deg);
+        box-shadow: 0px 0px 10px 1px #000;
+    }
+/* big photo End --------------------------- */
+
+ /* analytyical part start --------------------------- */
+    #name{
+        align-self: center;
+        justify-self: center;
+    }
+    #name{
+        align-self: center;
+        justify-self: center;
+    }
+    #name{
+        align-self: center;
+        justify-self: center;
+    }
+    .app-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .single-app{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin:10px 20px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        border-bottom: 1px solid rgba(73, 73, 73, 0.76);
+    }
+
+    .single-app img {
+        width:320px;
+    }
+    .coulmn{
+        border-left: 3px solid green;
+    }
+    .single-app h3 ,.single-app p ,.single-app a {
+        padding-left: 10px;
+    }
+    
+    .single-app p{
+        margin-top: -10px;
+    }
+    .single-app a{
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: rgb(93, 131, 165);
+    }
+    .single-app a:hover{
+        color: rgb(75, 105, 131);
+    }
+ /* analytyical part End ---------------------------- */
+
+/* q&a sec start ------------------------------------ */
+    .qa-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        justify-self: center;
+        font-size: 14px;
+        cursor: context-menu;
+        margin-bottom: 10px;
+        transition: 0.5s all ease-in-out;
+        margin-left: 50px;
+    }
+    .qu{
+        border-bottom: 2px solid rgb(219, 216, 216);
+        padding: 0px 10px;
+        margin-left: 20px;
+        transition: 0.5s all ease-in-out;
+    }
+    .qu:hover{
+        background-color: rgba(0, 0, 0, 0.089);
+    }
+    .qu h3{
+        cursor: pointer;
+    }
+    .show{
+        display:block;
+        transition: 0.5s all ease-in-out;
+    }
+    .hide{
+        display: none;
+        position: absolute;
+        transition: 0.5s all ease-in-out;
+    }
+
+/* q&a sec End ------------------------------------- */
+
+/* video sec start  */
+.tout-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 20px 0px;
+        position: relative;
+    }
+    .sing-vid-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 250px;
+        height: auto;
+        border-radius: 5px;
+        overflow: hidden;
+        margin:10px 20px;
+        padding-bottom: 10px;
+        box-shadow: 0px 0px 2px #000;
+    }
+    .sing-vid-cont img {
+        width:100%;
+    }
+    .sing-vid-cont h3 ,.sing-vid-cont p ,.sing-vid-cont a {
+        padding-left: 10px;
+    }
+    .sing-vid-cont h3 {
+        margin-top: -5px;
+    }
+    .sing-vid-cont a{
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: rgb(93, 131, 165);
+    }
+    .sing-vid-cont a:hover{
+        color: rgb(75, 105, 131);
+    }
+    #times{
+        background-color: rgba(0, 0, 0, 0.601);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding-left:0px;
+        align-self: flex-end;
+        margin-top: -32px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: white;
+    }
+/* video sec End   */
+
+/*--------------------- contact start----------------  */
+
+.main-contact {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.left {
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    cursor: context-menu;
+}
+
+.right {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+}
+
+.ptalk {
+    width: 500px;
+    height: auto;
+    padding-bottom: 30px;
+    border-left: rgb(103, 175, 243) 1px solid;
+    padding-left: 10px;
+    background-color: rgba(238, 238, 238, 0.822);
+}
+
+#contactname {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Gill Sans', ;
+    font-size: 14px;
+    padding-top:100px;
+    color: rgb(0, 0, 0);
+}
+
+.Name {
+    width: 390px;
+    height: auto;
+    font-size: 16px;
+    border: none;
+    border-bottom:2px solid rgba(100, 100, 100, 0.5);
+    border-left:1px solid rgba(100, 100, 100, 0.5);
+    padding: 10px;
+}
+
+.Email {
+    width: 390px;
+    height: auto;
+    font-size: 16px;
+    border: none;
+    border-bottom:2px solid rgba(100, 100, 100, 0.5);
+    border-left:1px solid rgba(100, 100, 100, 0.5);
+    padding: 10px;
+}
+
+.Subject {
+    width: 390px;
+    height: auto;
+    font-size: 16px;
+    border: none;
+    border-bottom:2px solid rgba(100, 100, 100, 0.5);
+    border-left:1px solid rgba(100, 100, 100, 0.5);
+    padding: 10px;
+}
+
+.Message {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    border: none;
+    border-bottom:2px solid rgba(100, 100, 100, 0.5);
+    border-left:1px solid rgba(100, 100, 100, 0.5);
+    padding: 10px;
+    width: 390px;
+}
+
+.name {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.email {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.subject {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.message {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+}
+
+.send {
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.788);
+    cursor: pointer;
+}
+
+.rest {
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.788);
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: rgba(217, 255, 5, 0.788);
+    color: #000;
+    font-weight: 700;
+}
+
+.rest:hover {
+    background-color: rgba(217, 255, 5, 0.788);
+    color: #000;
+    font-weight: 700;
+}
+/*--------------------- contact end------------------  */

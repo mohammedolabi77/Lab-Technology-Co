@@ -1,0 +1,115 @@
+@media   (max-width:1050px) {
+        .top-photo h3{
+        width: 80%;
+        padding-left: 40px;
+    }
+    .baisic-row img{
+        display: none;
+    }
+    .event-cont{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0px;
+        
+    } 
+    .side-nav-photo{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-top:20px;
+    }
+    .dev-phonto {
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dev-phonto img {
+        width: 70%;
+    }
+    .text-dev-nav{
+        width: 70%;
+    }
+    .seemo{
+        width: 70%;
+    }
+    .big-photo{
+        display: none;
+    }
+    #ev1{
+        border-left: 0px;
+    }
+    .row-text.data{
+        border-left: 10px rgb(0, 255, 128) solid;
+    }
+    .big-photo.dis{
+        display:flex;
+    }
+    .small-ev-contt.sevcontt.disact{
+        width: 65%;
+    }
+
+    #sev1{
+        border-right: 0px;
+        border-bottom: 5px solid rgb(0, 255, 128);
+    }
+    #sev2{
+        border-right: 0px;
+        border-bottom: 5px solid rgb(0, 217, 255);
+    }
+    .small-ev-contt.sevcontt.disact{
+        flex-direction: column;
+    }
+}
+@media (max-width:600px) {
+    .baisic-row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .row-text.data{
+        border-left: 0px;
+        margin-left: 0px;
+    }
+    .row-text{
+        border-bottom: 2px rgb(0, 255, 128) solid;
+        width: 70%;
+    }
+    .baisic-row{
+        width: 100%;
+        display: flex;
+        border-left: 0px !important;
+    }
+    .baisic-row div{
+        border-left: 0px;
+        width: 100% !important;
+    }
+    .baisic-row img {
+        display: flex;
+        position: relative;
+        left: 300px;
+        margin-top: -30px;
+        margin-left: -55px;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-photo.dis{
+        display:flex;
+    }
+    .small-ev-contt.sevcontt.disact{
+        width: 95%;
+    }
+    .description-text{
+        width: 100%;
+    }
+    .description-text .line{
+        padding:0px 120px !important;
+    }
+}

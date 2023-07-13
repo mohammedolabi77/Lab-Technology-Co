@@ -1,0 +1,63 @@
+@media only screen and (max-width:850px) {
+    .ptalk {
+        width:95%;
+        height: auto;
+        padding-bottom: 30px;
+        border-left: rgb(103, 175, 243) 1px solid;
+        border-bottom: rgb(103, 175, 243) 1px solid;
+        padding-left: 10px;
+        margin-bottom: 50px;
+    }
+    .main-contact{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        padding-right: 0px;
+        width: 100%;
+    }
+    .Name{
+        width: 90%;
+    }
+    .Email{
+        width: 90%;
+    }
+    .Subject{
+        width: 90%;
+    }
+    .Message{
+        width: 90%;
+    }
+    .send{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .rest  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .our-location{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.mapouter{
+    height:400px;
+    width:100%;
+}
+.gmap_canvas {
+    height:100%;
+    width:100%;
+}
+}

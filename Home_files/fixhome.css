@@ -1,0 +1,214 @@
+@media only screen and (max-width:850px) {
+    .info{
+        width: 100%;
+    }
+    #s{
+        width: 90%;
+    }
+    .ev-prod {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-ev {
+        top: 0px;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: auto;
+        text-overflow: ellipsis;
+        border-radius: 20px;
+        padding: 20px 30px;
+    }
+    #pro {
+        position: relative;
+        margin-bottom: 0px; 
+        left: 0px;
+    }
+    .main-prod{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-prod {
+        width:300px;
+        height: 110%;
+        margin-top: 0px;
+        border: 1px;
+        margin-bottom: 100px;
+        margin-left: 10px;
+    }
+    .first-prod img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .main-buy{
+        width: 350px!important;
+    }
+
+    .main-his{
+        display: flex;
+        flex-direction: column;
+    }
+    #scroll-container{
+        width: 100%;
+        border-bottom-right-radius: 10px;
+    }
+    .cont-his{
+        display: none;
+    }
+    .cont-his1{
+        display: flex;
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        top: 0px;
+    }
+    .cont-his1 img{
+        height: 350px;
+        border-bottom-right-radius: 0px;
+    }
+    .main-support{
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        top: 0px;
+    }
+    .main-support a {
+        width: 100%;
+        margin-bottom: 5px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tmain-mis {
+        flex-direction: column;
+    }
+    .main-mission{
+        flex-direction: column;
+    }
+    .main-mission a .g{
+        width:450px;
+    }
+    .main-mission a .g3{
+        width: 450px;
+    }
+    .main-contact{
+        flex-direction: column;
+    }
+    .ptalk {
+        width:95%;
+        height: auto;
+        padding-bottom: 30px;
+        border-left: rgb(103, 175, 243) 1px solid;
+        border-bottom: rgb(103, 175, 243) 1px solid;
+        padding-left: 10px;
+        margin-bottom: 50px;
+    }
+    .main-contact{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .right{
+        padding-right: 0px;
+        width: 100%;
+    }
+    .Name{
+        width: 90%;
+    }
+    .Email{
+        width: 90%;
+    }
+    .Subject{
+        width: 90%;
+    }
+    .Message{
+        width: 90%;
+    }
+    .send{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .rest  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:1064px){
+.main-buy {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 600px;
+        left: 50%;
+        transform: translate(-50%);
+        margin-left:0px ;
+        text-overflow: ellipsis;
+        height:auto;
+    }
+    
+    .nameo{
+        margin-top: 50px!important;
+        align-self:center!important;
+        left: 0% !important;
+    }
+    .cont-buy img {
+        display: none;
+    }
+    .cont-buy{
+        display: flex;
+    }
+    .cont-buy1 img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    }
+
+    .fill {
+        padding-right: 15px;
+        position: relative;
+        height:auto;
+    }
+    
+    .cont-buy1{
+        display: flex;
+        width:100% ;
+    }
+
+}
+@media only screen and (max-width:1323px){
+    .nameo{
+    margin-top: -10px!important;
+    align-self:center!important;
+    }
+    .main-support{
+        margin-left: 0px;
+    }
+    .nameot{
+        margin-left: 0px!important;
+    }
+}
+
+@media (max-width:350px) {
+    .first-prod{
+        width: 230px;
+    }
+}

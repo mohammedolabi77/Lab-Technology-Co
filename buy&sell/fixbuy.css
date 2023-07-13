@@ -1,0 +1,46 @@
+@media  (max-width:850px) {
+        .img-cont img{
+        display: none;
+    }
+        .ttext-cont{
+        width: 100%;
+        align-items: center;
+    }
+    .ttext-cont p{
+        width: 100%;
+        padding-left: 100px;
+    }
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-ev {
+        top: 0px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-overflow: ellipsis;
+        border-radius: 20px;
+        padding: 0px 80px;
+        margin:20px 0px ;
+    }
+    .sell-cont input,
+    textarea,
+    select{
+        width: 90%;
+        margin: 10px;
+        padding-right: 0px;
+        padding: 1px 0px;
+    }
+    .main-ev img {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+    }
+}
